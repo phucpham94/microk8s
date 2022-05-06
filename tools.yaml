@@ -6,7 +6,7 @@ metadata:
     app: arm-tools
 spec:
   containers:
-  - name: tools
+  - name: arm-tools
     image: apteno/alpine-jq
     resources: {}
     # command: ["/bin/bash"]
