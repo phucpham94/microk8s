@@ -5,7 +5,7 @@ metadata:
 spec:
   storageClassName: mystorageclass
   capacity:
-    storage: 5Gi
+    storage: 100Mb
   accessModes:
     - ReadWriteMany
   nfs:
