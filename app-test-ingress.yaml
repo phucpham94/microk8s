@@ -5,10 +5,10 @@ metadata:
   namespace: ingress-controller
 spec:
   rules:
-  - host: "foo.hcmjs.xyz"
+  - host: "k8s.com"
     http:
       paths:
-      - pathType: Prefix
+      - pathType: ImplementationSpecific
         path: "/"
         backend:
           service:
